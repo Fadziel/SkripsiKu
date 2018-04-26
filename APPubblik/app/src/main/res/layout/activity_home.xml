@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome">
+
+
+
+
+    <!--grid-->
+    <!--grid satu-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="388dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="250dp"
+        android:paddingTop="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/RSUD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="0dp"
+            android:background="#00000000"
+            android:onClick="firstImageButton"
+            android:src="@mipmap/ic1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/titleRS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/RSUD"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:text="RSUD"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/Kuliner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:layout_marginBottom="0dp"
+            android:background="#00000000"
+            android:src="@mipmap/ic4" />
+
+        <TextView
+            android:id="@+id/titlekuliner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:text="KULINER"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/Shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity=""
+            android:background="#00000000"
+            android:src="@mipmap/ic7" />
+
+        <TextView
+            android:id="@+id/titleRS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:text="TEMPAT BELANJA"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <!--grid dua-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="388dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="155dp"
+        android:paddingRight="5dp"
+        android:paddingTop="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/EKTP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="0dp"
+            android:background="#00000000"
+            android:onClick="firstImageButton"
+            android:src="@mipmap/ic3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/titlektp"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:text="E-KTP"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/PERBANKAN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="0dp"
+            android:background="#00000000"
+            android:onClick="firstImageButton"
+            android:src="@mipmap/ic5"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/perbankan"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:text="PERBANKAN"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/PERIZINAN"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="0dp"
+            android:background="#00000000"
+            android:onClick="firstImageButton"
+            android:src="@mipmap/ic8"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/perizinan"
+            android:layout_width="83dp"
+            android:layout_height="23dp"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:text="KEPOLISIAN"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!--grid tiga-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="388dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="275dp"
+        android:paddingRight="5dp"
+        android:paddingTop="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageButton
+            android:id="@+id/PAJAK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="0dp"
+            android:background="#00000000"
+            android:onClick="firstImageButton"
+            android:src="@mipmap/ic2"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/PAJAK"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:text="PAJAK"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/WISATA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="0dp"
+            android:background="#00000000"
+            android:onClick="firstImageButton"
+            android:src="@mipmap/ic6"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/WISATA"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:text="WISATA"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20px"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
